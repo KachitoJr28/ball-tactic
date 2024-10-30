@@ -1,0 +1,687 @@
+*{
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div{
+    text-align: center;
+}
+
+/* small pitch  */
+#pitch1{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: lightgreen;
+}
+
+.fwd{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.mid{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.def{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+#forwards{
+    display: flex;
+    justify-content: space-between;
+}
+
+#midfields{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#fullbacks{
+    display: flex;
+    justify-content: space-between;
+}
+
+#centrebacks{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* small ptich ends  */
+
+#pitch2,#pitch3{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: lawngreen;
+}
+
+/* pitch2  */
+#pitch2>.myTeam{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: darkorchid;
+}
+
+#pitch2>.op{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: crimson;
+}
+
+#pitch2>h2{
+    position: absolute;
+    bottom: -15%;
+    left: 20%;
+    color: darkred;
+}
+
+.no-2{
+    position: absolute;
+    top: 75%;
+    left: 90%;
+    animation-name: rb-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.no-3{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    animation-name: lb-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.no-4{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
+
+.no-5{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+.no-6{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    animation-name: cm6-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.no-7{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    animation-name: lw-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.no-8{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    animation-name: cm8-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.no-9{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation-name: st-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.no-10{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    animation-name: cm10-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.no-11{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    animation-name: rw-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.op-st{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    animation-name: opst-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.op-rw{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    animation-name: oprw-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.op-lw{
+    position: absolute;
+    top: 45%;
+    left: 90%;
+    animation-name: oplw-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.op-cam{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    animation-name: opcam-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+/* pitch2 ends  */
+/* pitch3 */
+#pitch3>.myTeam{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: darkorchid;
+}
+
+#pitch3>.op{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: crimson;
+}
+
+#pitch3>h2{
+    position: absolute;
+    bottom: -15%;
+    left: 20%;
+    color: darkblue;
+}
+
+#pitch3>.no-2{
+    position: absolute;
+    top: 75%;
+    left: 90%;
+    animation-name: rb-p3anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#pitch3>.no-3{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    animation-name: lb-p3anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#pitch3>.no-4{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    animation-name: cb4-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#pitch3>.no-5{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    animation-name: cb5-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#pitch3>.no-6{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    animation-name: cm6-p3anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#pitch3>.no-7{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    animation-name: lw-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#pitch3>.no-8{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    animation-name: cm8-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#pitch3>.no-9{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation-name: st-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#pitch3>.no-10{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    animation-name: cm10-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#pitch3>.no-11{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    animation-name: rw-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#pitch3>.op-st{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    animation-name: opst-p3anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#pitch3>.op-rw{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    animation-name: oprw-p3anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#pitch3>.op-lw{
+    position: absolute;
+    top: 45%;
+    left: 90%;
+    animation-name: oplw-p3anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#pitch3>.op-cam{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    animation-name: opcam-p3anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+/* pithch3 ends  */
+
+/* animations  */
+
+@keyframes rb-anim{
+    0%{
+        top:75%;
+        left:90%;
+    }
+    50%{
+        top:25%;
+        left:90%;
+    }
+    100%{
+        top: 75%;
+        left: 90%;
+    }
+}
+
+@keyframes lb-anim{
+    0%{
+        top:75%;
+        left:10%;
+    }
+    50%{
+        top:25%;
+        left:10%;
+    }
+    100%{
+        top: 75%;
+        left: 10%;
+    }
+}
+
+@keyframes cm6-anim{
+    0%{
+        top:65%;
+        left:50%;
+    }
+    50%{
+        top: 45%;
+        left: 50%;
+    }
+    100%{
+        top: 70%;
+        left: 50%;
+    }
+}
+
+@keyframes cm8-anim{
+    0%{
+        top:60%;
+        left:40%;
+    }
+    100%{
+        top: 30%;
+        left: 40%;
+    }
+}
+
+@keyframes cm10-anim{
+    0%{
+        top:60%;
+        left:60%;
+    }
+    100%{
+        top: 30%;
+        left: 60%;
+    }
+}
+
+@keyframes lw-anim{
+    0%{
+        top:50%;
+        left:10%;
+    }
+    100%{
+        top: 10%;
+        left: 10%;
+    }
+}
+
+@keyframes rw-anim{
+    0%{
+        top:50%;
+        left:90%;
+    }
+    100%{
+        top: 10%;
+        left: 90%;
+    }
+}
+
+@keyframes st-anim{
+    0%{
+        top:50%;
+        left:50%;
+    }
+    100%{
+        top: 10%;
+        left: 50%;
+    }
+}
+
+@keyframes oplw-anim{
+    0%{
+        top:45%;
+        left:10%;
+    }
+    50%{
+        top: 30%;
+        left: 10%;
+    }
+    100%{
+        top: 80%;
+        left: 10%;
+    }
+}
+
+@keyframes oprw-anim{
+    0%{
+        top:45%;
+        left:90%;
+    }
+    50%{
+        top: 30%;
+        left: 90%;
+    }
+    100%{
+        top: 80%;
+        left: 90%;
+    }
+}
+
+@keyframes opst-anim{
+    0%{
+        top:45%;
+        left:50%;
+    }
+    50%{
+        top: 30%;
+        left: 50%;
+    }
+    100%{
+        top: 80%;
+        left: 50%;
+    }
+}
+
+@keyframes opcam-anim{
+    0%{
+        top:40%;
+        left:50%;
+    }
+    50%{
+        top: 20%;
+        left: 50%;
+    }
+    100%{
+        top: 75%;
+        left: 50%;
+    }
+}
+
+/* pitch3 animations  */
+@keyframes oplw-p3anim{
+    0%{
+        top:45%;
+        left:10%;
+    }
+    50%{
+        top: 30%;
+        left: 10%;
+    }
+    100%{
+        top: 70%;
+        left: 10%;
+    }
+}
+
+@keyframes oprw-p3anim{
+    0%{
+        top:45%;
+        left:90%;
+    }
+    50%{
+        top: 30%;
+        left: 90%;
+    }
+    100%{
+        top: 70%;
+        left: 90%;
+    }
+}
+
+@keyframes opst-p3anim{
+    0%{
+        top:45%;
+        left:50%;
+    }
+    50%{
+        top: 30%;
+        left: 50%;
+    }
+    100%{
+        top: 70%;
+        left: 50%;
+    }
+}
+
+@keyframes opcam-p3anim{
+    0%{
+        top:40%;
+        left:50%;
+    }
+    50%{
+        top: 20%;
+        left: 50%;
+    }
+    100%{
+        top: 65%;
+        left: 50%;
+    }
+}
+
+@keyframes rb-p3anim{
+    0%{
+        top:75%;
+        left:90%;
+    }
+    50%{
+        top:25%;
+        left:90%;
+    }
+    100%{
+        top: 80%;
+        left: 60%;
+    }
+}
+
+@keyframes lb-p3anim{
+    0%{
+        top:75%;
+        left:10%;
+    }
+    50%{
+        top:25%;
+        left:10%;
+    }
+    100%{
+        top: 80%;
+        left: 40%;
+    }
+}
+
+@keyframes cm6-p3anim{
+    0%{
+        top:65%;
+        left:50%;
+    }
+    50%{
+        top: 45%;
+        left: 50%;
+    }
+    100%{
+        top: 71%;
+        left: 50%;
+    }
+}
+
+@keyframes cb4-anim{
+    0%{
+        top:80%;
+        left:60%;
+    }
+    50%{
+        top:55%;
+        left:60%;
+    }
+    100%{
+        top: 75%;
+        left: 90%;
+    }
+}
+
+@keyframes cb5-anim{
+    0%{
+        top:80%;
+        left:40%;
+    }
+    50%{
+        top:55%;
+        left:40%;
+    }
+    100%{
+        top: 75%;
+        left: 10%;
+    }
+}
